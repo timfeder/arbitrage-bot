@@ -28,6 +28,7 @@ def main():
     exchanges = [
         "ascendex",
         "mexc",
+         "gate",
        
     ]
 
