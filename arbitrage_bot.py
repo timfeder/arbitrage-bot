@@ -33,7 +33,7 @@ def main():
     ]
 
     symbols = [
-            "BTC/USDT",
+            "ZIG/USDT",
         
     ]
 
