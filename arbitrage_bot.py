@@ -3,56 +3,33 @@ import ccxt
 
 
 exchangesData = {
-    "hitbtc": {
+    "ascendex": {
         "apiKey": "",
         "secret": "",
         "transactionFee": 0.001
     },
-    "binance": {
+    "mexc": {
         "apiKey": "",
         "secret": "",
         "transactionFee": 0.001
-    },
-    "bittrex": {
-        "apiKey": "",
-        "secret": "",
-        "transactionFee": 0.0025
-    },
-    "poloniex": {
-        "apiKey": "",
-        "secret": "",
-        "transactionFee": 0.0025
-    },
-    "exmo": {
-        "apiKey": "",
-        "secret": "",
-        "transactionFee": 0.002
-    },
+    }
+    
 }
 
 min_spread = 1
-min_profit = 0
+min_profit = 1
 
 
 def main():
     exchanges = [
-        "binance",
-        "bittrex",
-        "hitbtc",
-        "poloniex",
-        # "exmo",
-        # "bitmex",
-        # "huobi",
+        "ascendex",
+        "mexc",
+       
     ]
 
     symbols = [
-        "ETH/USDT",
-        "XRP/USDT",
-        # "BTC/USDT",
-        # "BCH/USDT",
-        # "DASH/USDT",
-        # "XMR/USDT",
-        # "LTC/USDT",
+        "ZIG/USDT"
+        
     ]
 
     min_ask_exchange_id = ""
