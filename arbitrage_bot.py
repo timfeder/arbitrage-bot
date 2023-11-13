@@ -12,8 +12,12 @@ exchangesData = {
         "apiKey": "",
         "secret": "",
         "transactionFee": 0.001
+    },
+     "gate": {
+        "apiKey": "",
+        "secret": "",
+        "transactionFee": 0.001
     }
-    
 }
 
 min_spread = 1
