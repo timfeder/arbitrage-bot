@@ -47,10 +47,7 @@ def main():
     max_increase_percentage = 0.0
 
     for symbol in symbols:
-      
-       
-print(mexc.fetch_ticker('ZIG/USD'))
-        
+           
         
         print("-----------------------------")
         print("Searching for the best opportunity for {0} on {1}".format(
