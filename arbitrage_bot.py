@@ -49,9 +49,6 @@ def main():
     for symbol in symbols:
       
        
-print(ascendex.id, ascendex.load_markets())
-print(mexc.id, mexc.load_markets())
-
 print(mexc.fetch_ticker('ZIG/USD'))
         
         
