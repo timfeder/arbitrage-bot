@@ -47,6 +47,14 @@ def main():
     max_increase_percentage = 0.0
 
     for symbol in symbols:
+      
+       
+print(ascendex.id, ascendex.load_markets)
+print(mexc.id, mexc.load_markets())
+
+print(mexc.fetch_ticker('ZIG/USD'))
+        
+        
         print("-----------------------------")
         print("Searching for the best opportunity for {0} on {1}".format(
             symbol, exchanges))
